@@ -1,0 +1,32 @@
+{
+  "name": "stremio-ai-realdebrid-addon",
+  "version": "1.0.0",
+  "description": "AI-powered Stremio add-on with Real-Debrid integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "real-debrid",
+    "ai",
+    "streaming"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
